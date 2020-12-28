@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+    <title>Ronald Fulton - Web Developer</title>
+  </head>
+
+  <body>
+    <!-- HEADER SECTION -->
+    <header id="home" class="header">
+      <div class="header__wrapper container__header">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo" class="logo__img" />
+        </div>
+        <nav class="user-nav">
+          <a href="#about" class="user-nav__link">
+            <i class="far fa-smile"></i> <span>About</span>
+          </a>
+          <a href="#portfolio" class="user-nav__link">
+            <i class="far fa-folder-open"></i> <span>Porfolio</span>
+          </a>
+          <a href="#resources" class="user-nav__link">
+            <i class="far fa-clone"></i> <span>Resources</span>
+          </a>
+          <a href="#contact" class="user-nav__link">
+            <i class="far fa-paper-plane"></i> <span>Contact</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <!-- Hero Section -->
+
+      <section class="hero">
+        <div class="hero__layer"></div>
+        <div class="hero__content">
+          <h1 class="hero__heading">
+            Hello! I'm <span class="hero__heading--name">Ronald Fulton.</span
+            ><br />I'm a Web Developer.
+          </h1>
+          <a href="#portfolio" class="btn" id="cta">Check my work</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+
+      <header class="section-header">
+        <h1 class="section-header__heading">About me</h1>
+        <p class="section-header__paragraph">
+          Always excited to learn, design and build new things.
+        </p>
+      </header>
+      <section id="about" class="container">
+        <div class="about-wrapper">
+          <div class="about">
+            <figure class="about__icon-container">
+              <img
+                src="img/codewhite.png"
+                alt="Code icon"
+                class="about__icon"
+              />
+            </figure>
+            <h3 class="heading-terciary">Code</h3>
+            <p class="paragraph">
+              I care about writing clean, simple and
+              maintainable code that is easy to read for humans.
+            </p>
+          </div>
+          <div class="about">
+            <figure class="about__icon-container">
+              <img
+                src="img/designwhite.png"
+                alt="Design icon"
+                class="about__icon"
+              />
+            </figure>
+            <h3 class="heading-terciary">Design</h3>
+            <p class="paragraph">
+              I focus on crafting beautifully designed websites, and as with my
+              code, I value simple and clean design patterns.
+            </p>
+          </div>
+          <div class="about">
+            <figure class="about__icon-container">
+              <img
+                src="img/responsivewhite.png"
+                alt="Responsive icon"
+                class="about__icon"
+              />
+            </figure>
+            <h3 class="heading-terciary">Responsive</h3>
+            <p class="paragraph">
+              My projects will work on any device, no matter the size of the
+              screen.
+            </p>
+          </div>
+        </div>
+        <div class="profile">
+          <figure class="profile__shape">
+            <!-- <img
+              src="img/me.png"
+              alt="Gilbert Rosario"
+              class="profile__photo"
+            /> -->
+          </figure>
+          <div class="profile__description">
+            <h3 class="heading-terciary">Who am I?</h3>
+            <p class="paragraph">
+              I'm currently seeking out the right team where I can work with other
+              passionate individuals to build digital products that positively impact
+              peoples lives. I'm always looking for an opportunity to code, design and learn
+              new things.
+            </p>
+          </div>
+
+          <div class="skills">
+            <span>&bull; HTML</span>
+            <span>&bull; CSS</span>
+            <span>&bull; Sass</span>
+            <span>&bull; BEM</span>
+            <span>&bull; JavaScript</span>
+            <span>&bull; React</span>
+            <span>&bull; jQuery</span>
+            <span>&bull; Node.js</span>
+            <span>&bull; NPM</span>
+            <span>&bull; Git</span>
+            <span>&bull; GitHub</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+
+      <header class="section-header">
+        <h1 class="section-header__heading">Portfolio</h1>
+        <p class="section-header__paragraph">My development projects.</p>
+      </header>
+      <section id="portfolio" class="container">
+        <div class="flex-grid"></div>
+      </section>
+
+      
+
+      <!-- Contact Section -->
+
+      <header class="section-header">
+        <h1 class="section-header__heading">Contact</h1>
+        <p class="section-header__paragraph">
+          You have a question or want to work together?
+        </p>
+      </header>
+      <section id="contact" class="contact-section container">
+        <div class="contact-form">
+          <div class="form-side">
+            <h3 class="form-side__heading">Let's get in touch!</h3>
+            <div class="form-side__content">
+              <i class="fas fa-envelope"></i>
+              <span class="form-side__span"><a href="mailto:Ronald.fulton@gmail.com">Ronald.fulton@gmail.com</a></span>
+              <div>
+              <i class="fas fa-phone"></i>
+              <span class="form-side__span"><a href="tel:443-739-0378">443-739-0378</a></span>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container">
+        <div class="center-text">
+          <span class="copyright"
+            >&copy; 2020
+            <span class="copyright__name">Ronald Fulton</span></span
+          >
+          <p class="footer-nav">
+            <a href="#home" class="footer-nav__link">Home</a> &nbsp;|&nbsp;
+            <a href="#about" class="footer-nav__link">About</a> &nbsp;|&nbsp;
+            <a href="#portfolio" class="footer-nav__link">Portfolio</a>
+            |&nbsp;
+          </p>
+          <div class="social-media">
+            <a
+              href="https://github.com/Ronald-Fulton"
+              target="_blank"
+              class="social-media__icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ronald-fulton-205506146/"
+              target="_blank"
+              class="social-media__icon"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
